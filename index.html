@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tribute To Kobe</title>
-    <link rel="stylesheet" href="./style.css"
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <main>
-      <h1 id="title">KOBE BRYANT</h1>
-      <p id="tagline">The black mamba</p>
+      <h1 id="title" data-aos="fade-in">KOBE BRYANT</h1>
+      <p data-aos="fade-up" aos-duration="2000" id="tagline">The black mamba</p>
 
       <div id="main">
         <div id="img-div">
@@ -156,5 +157,10 @@
       >
       - All Rights Reserved
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./animation.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
