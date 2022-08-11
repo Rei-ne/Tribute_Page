@@ -11,17 +11,18 @@ body {
   line-height: 1.5;
   font-weight: 300;
   text-align: center;
-  color: rgb(41, 41, 41);
+  color: #f4f56e;
   margin: 0;
-  background: #efe94b;
-  border: 5px solid white;
-  border-radius: 8px;
+  background: #2f1b41;
+  border: 5px solid #f4f56e;
+  border-radius: 1px;
   padding: 0;
 }
 h1 {
   font-size: 2.5rem;
   font-weight: 600;
 }
+
 @media (max-width: 460px) {
   h1 {
     font-size: 2.5rem;
@@ -37,15 +38,15 @@ p {
 }
 
 #tagline {
-  color: #631357;
+  color: #f4f56e;
   font-weight: 700;
 }
 a {
-  color: #631357;
+  color: white;
 }
 
 a:visited {
-  color: #74638f;
+  color: #ccc;
 }
 h3 {
   font-size: 1rem;
@@ -76,9 +77,7 @@ img {
   transition: all 0.5s ease-in-out;
 }
 
-img:hover {
-  transform: scale(1.1);
-}
+
 @media (max-width: 460px) {
   #img-caption {
     font-size: 1.4rem;
@@ -116,12 +115,12 @@ ul {
 
 li {
   margin: 10px 0;
-  color: black;
+  color: #f4f56e;
 }
 
 footer {
   text-align: center;
-  color: black;
+  color: white;
 }
 /* Scroll bar */
 /* width */
@@ -131,12 +130,12 @@ footer {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #efe94b;
+  background: #2f1b41;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: white;
+  background: #f4f56e;
 }
 
 /* Handle on hover */
